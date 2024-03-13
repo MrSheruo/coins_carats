@@ -4,9 +4,87 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+      body {
+      }
+    </style>
     <script type="module" src="./main.js" defer></script>
     <title>Coins Carats</title>
   </head>
 
-  <body></body>
+  <body style="font-family: 'Karla', sans-serif">
+    <!-- Start Header -->
+    <header>
+      <nav class="flex justify-evenly p-8 bg-slate-300 shadow-md">
+        <div class="flex gap-8">
+          <p>CATALOG</p>
+          <p>MONTANA SAPPHIRES</p>
+          <p>REPAIR</p>
+        </div>
+        <img src="/logo.svg" />
+        <div class="flex gap-8">
+          <a href="#">Coins</a>
+          <a href="#">Gold & Silver</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section id="hero-section" class="relative">
+        <div class="flex flex-col gap-12 absolute left-20 bottom-[30%]">
+          <h1 class="text-[80px] font-bold">precious keepsakes</h1>
+          <p class="text-[25px]">
+            Kalispell Premier Destination for Precious <br />
+            Keepsakes & Investments
+          </p>
+          <button
+            class="w-fit px-4 py-2 ring-black ring-2 text-xl hover:bg-black hover:text-white transition-colors"
+          >
+            Shop Now
+          </button>
+        </div>
+      </section>
+    </header>
+
+    <main class="my-8">
+      <section class="flex flex-col gap-4 items-center">
+        <h2 class="text-3xl">Shop by category</h2>
+        <p class="italic">Indulge in what we offer.</p>
+        <div class="flex justify-center gap-4 flex-wrap">
+          <div
+            class="flex flex-col gap-4 items-center hover:scale-110 transition-transform"
+          >
+            <img src="/shop-image/01.jpg" alt="" class="rounded-2xl" />
+            <p>Jewelry</p>
+          </div>
+          <div
+            class="flex flex-col gap-4 items-center hover:scale-110 transition-transform"
+          >
+            <img src="/shop-image/02.jpg" alt="" class="rounded-2xl" />
+            <p>Jewelry</p>
+          </div>
+          <div
+            class="flex flex-col gap-4 items-center hover:scale-110 transition-transform"
+          >
+            <img src="/shop-image/03.jpg" alt="" class="rounded-2xl" />
+            <p>Jewelry</p>
+          </div>
+          <div
+            class="flex flex-col gap-4 items-center hover:scale-110 transition-transform"
+          >
+            <img src="/shop-image/04.jpg" alt="" class="rounded-2xl" />
+            <p>Jewelry</p>
+          </div>
+          <div
+            class="flex flex-col gap-4 items-center hover:scale-110 transition-transform"
+          >
+            <img src="/shop-image/05.jpg" alt="" class="rounded-2xl" />
+            <p>Jewelry</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- END Header -->
+  </body>
 </html>
